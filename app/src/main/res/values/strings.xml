@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CoinsChanger</string>
+    <string name="TittleApp">Coin Changer</string>
+    <string name="TittleFromCoin">From Coin</string>
+    <string name="ColombianCoin">Pesos</string>
+    <string name="UsaCoin">Dolares</string>
+    <string name="EuroCoin">Euros</string>
+    <string name="TittleToCoin">To Coin</string>
+    <string name="ConvertButton">Convert</string>
+    <string name="AmountToConvert">Amount to convert</string>
+    <string name="text_required">Text required*</string>
+    <string name="ConvertedText">Amount Converted</string>
+</resources>
