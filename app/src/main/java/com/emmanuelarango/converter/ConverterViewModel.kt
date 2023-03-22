@@ -50,7 +50,7 @@ class ConverterViewModel : ViewModel() {
     }
 
     fun validations(ammountToConvert: Double, Pesos: Boolean, Dolares: Boolean, Euros: Boolean, ToPesos: Boolean, ToEuros: Boolean, ToDolares: Boolean) {
-        if (ammountToConvert > 0) {
+        if ((ammountToConvert > 0) and (Pesos or Dolares or Euros) and (ToPesos or ToDolares or ToEuros)) {
 
             if (Pesos && ToDolares) {
 

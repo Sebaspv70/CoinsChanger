@@ -27,7 +27,7 @@ class ConverterActivity : AppCompatActivity() {
         val isErrorValidationObserver = Observer<Boolean> {
             Toast.makeText(
                 applicationContext,
-                "Debe introducir cantidades positivas",
+                "Debe introducir cantidades positivas distintas de cero. Verifique las conversiones seleccionadas",
                 Toast.LENGTH_LONG
             ).show()
 
